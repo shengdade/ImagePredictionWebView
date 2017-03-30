@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         web = new WebView(this);
         web.getSettings().setJavaScriptEnabled(true);
-        web.loadUrl("http://ec2-52-203-198-133.compute-1.amazonaws.com/");
+        web.loadUrl("http://dade.ca/");
         web.setWebViewClient(new myWebClient());
         web.setWebChromeClient(new WebChromeClient() {
             //The undocumented magic method override
